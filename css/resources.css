@@ -56,11 +56,11 @@ nav ul li a:hover{
      background-color: #d93333;
      font-variant: small-caps; 
  }
-main {
+/*main {
     width:100%;
-}
+}*/
 #banner {
-    clear: left;
+    /*clear: left;*/
     background-image:url(../images/mealprepjars.jpg);
     background-size: cover;
     background-position: 60% 60%;
@@ -74,6 +74,7 @@ main {
     width: 30%;
     height: 250px;
     margin: 1%;
+    position: relative;
 }
 button{
     background-color:#d93333;
@@ -87,15 +88,7 @@ button{
     top: 120px;
     margin: 100px;
 }
-#footer{
-    /*clear: position;*/
-    color: rgb(1, 0, 0);
-    background-color: #65a603;
-    height: 90px;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-}
+
 #email{
     background-color:#1a4407;
     padding: 1%;
@@ -106,4 +99,13 @@ button{
     position: relative;
     top: 2px;
     left: 100px;
+}
+#footer{
+    /*clear: position;*/
+    color: rgb(1, 0, 0);
+    background-color: #65a603;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
