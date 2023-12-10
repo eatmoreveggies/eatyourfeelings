@@ -55,7 +55,7 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(26, 227, 126);
  }
- .consult{
+.consult{
      background-color: #d93333;
      font-variant: small-caps; 
  }
@@ -88,12 +88,6 @@ p{
     display: inline-block;
     vertical-align: middle;
 }
-/*.special-text{ 
-    font-family: "Comfortaa", sans-serif;
-    background-color: #317302;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-  }*/
 button{
     background-color:#d93333;
     padding: 1%;
