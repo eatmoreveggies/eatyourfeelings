@@ -11,74 +11,95 @@
     border: 0;
 }
 body {
-    font-family:'Comfortaa', sans-serif;
+    /*font-family:'Comfortaa', sans-serif;
     color:black;
-    font-size: 14px;
+    font-size: 14px;*/
     background-color:white;
 }
 header {
     font-family:'Comfortaa', sans-serif;
     background-color:#65a603;
     width: 100%;
-    height: 100px;
+    height: 220px;
     letter-spacing: 5px;
-    margin: 10px;
     position: relative;
-    padding: 1%;
 }
 h1 {
     font-family:"Comfortaa", sans-serif;
     color: rgb(1, 0, 0);
     font-size: 75px;
     background-color: #65a603;
-    height: 10%;
+    height: 5px;
     width: 100%;
-    text-align:left ;
-    padding: 5%;
+    text-align: center;
+    padding: 2%;
     position: relative;
 }
-div{
-    width: 85%;
-    height: 50%;
-    background-color: #317302;
-    position: relative;
-}
-.recipephoto img,
-.recipephoto p {
-    display: block;
+nav ul li{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+   /* height: 60px;
+    width: 190px;*/
+    background-color: #1a4407;
+    list-style-type:none;
     float: left;
-    width: 30%;
-    height: 325px;
-    margin: 1%;
- }
-
-img{
-    width: 40%;
-    height: 700px;
-    position: relative;
-    left: 55%;
+    border-radius: 40px;
+    padding: 1%;
+    margin: 60px;
+    z-index: 999;
 }
-p{
+nav ul li a{
+   color: white;
+   text-decoration: none; 
+   padding: 1px;
+   margin: 70px;
+  /* float: left;*/
+   z-index: 999;
+}
+nav ul li a:hover{
+   color: rgb(26, 227, 126);
+}
+.consult{
+    background-color: #d93333;
+    font-variant: small-caps; 
+}
+#recipephoto {
+    width: 75%;
+    height: 20%;
+    float: left;
+    background-color: #65a603;
+    position: relative;
+   margin: 1%;
+   /* bottom: 50px;*/
+}
+#recipephoto p{
+    width: 40%;
+    height: 500px;
     color: black;
-    font: size 100px;
+    font: size 200px;
     font-weight: bold;
     background-color: rgb(214, 209, 209);
-    padding: 1%;
-    width: 50%;
-    height: 700px;
+    padding: 10px;
     position: relative;
+    top: 100px;
     left: 2%;
-    padding: auto;
+}
+#recipephoto div img{
+    width: 30%;
+    position: relative;
+    left: 800px;
+    bottom: 450px;
 }
 h2 {
     font-family:"Comfortaa", sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     text-transform: uppercase;
-    /*height: 10%;
-    width: 100%;*/
-    text-align:center ;
-    padding: 5%;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    /*padding: 1%;*/
 }
 button{
     font-size: 15px;
@@ -89,18 +110,18 @@ button{
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 70px;
-    margin: 25px;
+    margin: 20px;
     z-index: 999;
 }
 article{
     padding: 0;
     width: 15%;
     height: 680px;
-    background-color: rgb(144, 167, 140);
-    border: red;
-    position:absolute;
+    /*background-color: rgb(144, 167, 140);*/
+    position:relative;
+    float: right;
     right: 0;
-    top: 300px;
+    top: 20px;
 }
 #schedule{
     background-color:#730202;
@@ -131,4 +152,5 @@ footer{
     height: 150px;
     width: 100%;
     text-align:left;
+    clear: left;
 }

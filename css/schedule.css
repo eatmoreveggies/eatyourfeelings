@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(fonts/Comfortaa-Regular.ttf);
+  }
 /*STYLE SHEET For scheduleaconsult.html*?
 /*
 /*Reset Stylesheet */
@@ -6,14 +10,61 @@
     padding: 0;
     border: 0;
 }
+header {
+    font-family:'Comfortaa', sans-serif;
+    background-color:#65a603;
+    width: 100%;
+    height: 220px;
+    letter-spacing: 5px;
+}
+h1 {
+    font-family:"Comfortaa", sans-serif;
+    color: rgb(1, 0, 0);
+    font-size: 75px;
+    background-color: #65a603;
+    height: 5px;
+    width: 100%;
+    text-align:center ;
+    padding: 2%;
+}
+nav ul li{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+   /* height: 60px;
+    width: 190px;*/
+    background-color: #1a4407;
+    list-style-type:none;
+    float: left;
+    border-radius: 40px;
+    padding: 1%;
+    margin: 60px;
+    z-index: 999;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none; 
+   padding: 1px;
+   margin: 79px;
+  /* float: left;*/
+   z-index: 999;
+}
+nav ul li a:hover{
+   color: rgb(26, 227, 126);
+}
+.consult{
+    background-color: #d93333;
+    font-variant: small-caps; 
+}
 body{
     font-family:'Comfortaa', sans-serif;
     color:black;
     font-size: 18px;
-    background-color:#65a603;
+    background-color:#eef4dc;
     position: relative;
+    clear: left;
   }
-h1 {
+/*h1 {
     font-family:"Comfortaa", sans-serif;
     color: rgb(1, 0, 0);
     font-size: 55px;
@@ -22,12 +73,13 @@ h1 {
     width: 100%;
     text-align:center ;
     padding: 1%;
-}
+}*/
 p{
-    text-align: left;
+    /*text-align: left;*/
     font-size: 20px;
     font-weight: bold;
     padding: 5px;
+    clear: left;
 }
 form{
     font-size: 18px;

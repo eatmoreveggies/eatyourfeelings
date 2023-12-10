@@ -2,7 +2,7 @@
     font-family: 'Comfortaa';
     src: url(fonts/Comfortaa-Regular.ttf);
   }
-/*STYLE SHEET For index.html*?
+/*STYLE SHEET For resources.html*?
 /*
 /*Reset Stylesheet */
 *{
@@ -41,41 +41,41 @@ nav ul li{
     float: left;
     border-radius: 40px;
     padding: 1%;
-    margin: 60px;
+    margin: 80px;
     z-index: 999;
 }
 nav ul li a{
    color: white;
    text-decoration: none; 
    padding: 1px;
-   margin: 79px;
+   margin: 70px;
   /* float: left;*/
    z-index: 999;
 }
 nav ul li a:hover{
-   color: rgb(26, 227, 126);
-}
-.consult{
-    background-color: #d93333;
-    font-variant: small-caps; 
-}
+    color: rgb(26, 227, 126);
+ }
+ .consult{
+     background-color: #d93333;
+     font-variant: small-caps; 
+ }
 main {
     width:100%;
 }
 #banner {
     clear: left;
-    background-image:url(../images/breakfast.jpg);
+    background-image:url(../images/mealprepjars.jpg);
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 60% 60%;
     background-repeat: no-repeat;
-    height:200px;
+    height:300px;
 }
-.image-text-image img,
-.image-text-image p {
+.image-video-image img,
+.image-video-image video {
     display: block;
     float: left;
     width: 30%;
-    height: 325px;
+    height: 250px;
     margin: 1%;
 }
 p{
@@ -98,17 +98,20 @@ button{
     background-color:#d93333;
     padding: 1%;
     color: white;
+    text-transform: uppercase;
     font-weight: bold;
     border-radius: 40px;
     position: relative;
-    top: 2px;
-    left: 1600px;
+    float: left;
+    top: 120px;
+   /* left: 1400px;*/
+    margin: 100px;
 }
 #footer{
     /*clear: position;*/
     color: rgb(1, 0, 0);
     background-color: #65a603;
-    height: 100px;
+    height: 90px;
     width: 100%;
     position: absolute;
     bottom: 0px;
@@ -116,6 +119,7 @@ button{
 #email{
     background-color:#1a4407;
     padding: 1%;
+    margin: 1%;
     color: white;
     font-weight: bold;
     border-radius: 40px;

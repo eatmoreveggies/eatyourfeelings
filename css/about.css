@@ -30,7 +30,36 @@ h1 {
     text-align:center ;
     padding: 2%;
 }
-button{
+nav ul li{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+   /* height: 60px;
+    width: 190px;*/
+    background-color: #1a4407;
+    list-style-type:none;
+    float: left;
+    border-radius: 40px;
+    padding: 1%;
+    margin: 60px;
+    z-index: 999;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none; 
+   padding: 1px;
+   margin: 70px;
+  /* float: left;*/
+   z-index: 999;
+}
+nav ul li a:hover{
+   color: rgb(26, 227, 126);
+}
+.consult{
+    background-color: #d93333;
+    font-variant: small-caps;    
+}
+/*button{
     background-color: #1a4407;
     padding: 1%;
     color: white;
@@ -41,29 +70,27 @@ button{
     position: relative;
     top: 2px;
     left: 1575px;
-}
+}*/
 main{
     background-color:rgb(214, 209, 209) ;
-    height: 60%;
-    width: 100%;
 }
 p{
     font-family: "Comfortaa", sans-serif;
     color: white;
     background-color: #1a4407;
-    height: 600px;
+    height: 500px;
     width: 45%;
     font-size: 43px;
     text-align:center;
     letter-spacing: 5px;
     position: relative;
     left: 40px;
-    bottom: 200px;
+    bottom: 150px;
     display: inline-block;
     vertical-align: middle;
 }
 img{
-    height: 600px;
+    height: 500px;
     width: 40%;
     position: relative;
     left: 250px;
