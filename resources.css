@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(fonts/Comfortaa-Regular.ttf);
+  }
+/*STYLE SHEET For resources.html*?
+/*
+/*Reset Stylesheet */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+       background-color:white;
+}
+header {
+    font-family:'Comfortaa', sans-serif;
+    background-color:#65a603;
+    width: 100%;
+    height: 220px;
+    letter-spacing: 5px;
+}
+h1 {
+    font-family:"Comfortaa", sans-serif;
+    color: rgb(1, 0, 0);
+    font-size: 75px;
+    background-color: #65a603;
+    height: 5px;
+    width: 100%;
+    text-align:center ;
+    padding: 2%;
+}
+nav ul li{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    background-color: #1a4407;
+    list-style-type:none;
+    float: left;
+    border-radius: 40px;
+    padding: 1%;
+    margin: 80px;
+    z-index: 999;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none; 
+   padding: 1px;
+   margin: 70px;
+   z-index: 999;
+}
+nav ul li a:hover{
+    color: rgb(26, 227, 126);
+ }
+.consult{
+     background-color: #d93333;
+     font-variant: small-caps; 
+ }
+main {
+    width:100%;
+}
+#banner {
+    clear: left;
+    background-image:url(../images/mealprepjars.jpg);
+    background-size: cover;
+    background-position: 60% 60%;
+    background-repeat: no-repeat;
+    height:300px;
+}
+.image-video-image img,
+.image-video-image video {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin: 1%;
+    position: relative;
+}
+button{
+    background-color:#d93333;
+    padding: 1%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    position: relative;
+    float: left;
+    top: 120px;
+    margin: 100px;
+}
+
+#email{
+    background-color:#1a4407;
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    position: relative;
+    top: 2px;
+    left: 100px;
+}
+#footer{
+    /*clear: position;*/
+    color: rgb(1, 0, 0);
+    background-color: #65a603;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
