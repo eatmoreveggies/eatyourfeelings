@@ -67,15 +67,6 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     height:300px;
 }
-.image-video-image img,
-.image-video-image video {
-    display: block;
-    float: left;
-    width: 30%;
-    height: 250px;
-    margin: 1%;
-    position: relative;
-}
 button{
     background-color:#d93333;
     padding: 1%;
@@ -89,7 +80,15 @@ button{
     margin: 90px;
     z-index: 999;
 }
-
+.image-video-image img,
+.image-video-image video {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin: 1%;
+    position: relative;
+}
 #email{
     background-color:#1a4407;
     padding: 1%;
