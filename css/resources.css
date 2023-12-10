@@ -86,7 +86,8 @@ button{
     position: relative;
     float: left;
     top: 120px;
-    margin: 100px;
+    margin: 90px;
+    z-index: 999;
 }
 
 #email{
