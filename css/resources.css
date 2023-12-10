@@ -34,8 +34,6 @@ nav ul li{
     color: white;
     font-size: 14px;
     text-align: center;
-   /* height: 60px;
-    width: 190px;*/
     background-color: #1a4407;
     list-style-type:none;
     float: left;
@@ -49,7 +47,6 @@ nav ul li a{
    text-decoration: none; 
    padding: 1px;
    margin: 70px;
-  /* float: left;*/
    z-index: 999;
 }
 nav ul li a:hover{
@@ -78,27 +75,16 @@ main {
     height: 250px;
     margin: 1%;
 }
-p{
-    font-family: "Comfortaa", sans-serif;
-    color: white;
-    background-color: #1a4407;
-    font-size: 33px;
-    text-align:center;
-    letter-spacing: 5px;
-    display: inline-block;
-    vertical-align: middle;
-}
 button{
     background-color:#d93333;
     padding: 1%;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 40px;
+    border-radius: 30px;
     position: relative;
     float: left;
     top: 120px;
-   /* left: 1400px;*/
     margin: 100px;
 }
 #footer{
